@@ -1,0 +1,14 @@
+.lt-bd {
+  background:#ccc;
+}
+
+.panel .panel-heading .panel-title{
+  height:50px;
+  line-height:50px;
+  font-size:20px;
+  text-align:center;
+  
+}
+.login {
+  margin-top:100px;
+}
