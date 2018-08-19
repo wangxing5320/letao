@@ -43,14 +43,7 @@ $(document).ajaxStop(function() {
 
 
 
-  //点击侧边栏的按钮高亮像是
  
-$(".lt-aside .nav ul li").each(function(i,v){
- $(this).on("click",function(){
-   $(this).children("a").addClass("current");
-   $(this).siblings().children("a").removeClass("current");
- })
-})
 
 
  
@@ -59,8 +52,17 @@ $(".lt-aside .nav ul li").each(function(i,v){
 
 
   $(".lt-aside .nav ul>li>a.manage").on("click",function(){
+    
     $(".lt-aside .category").stop().slideToggle();
   })
+
+   
+
+
+
+
+
+
 
   $(".lt-right .h-left").on("click",function(){
     $(".lt-aside").toggleClass("hidemenue");
