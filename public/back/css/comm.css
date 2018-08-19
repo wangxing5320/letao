@@ -1,0 +1,135 @@
+ html,body{
+   height:100%;
+ }
+ ul {
+   padding:0;
+   margin:0;
+   list-style:none;
+ }
+ a,
+ a:link,
+ a:hover,
+ a:visited,
+ a:active{
+   text-decoration:none;
+   color:#333;
+ }
+ .it-index  {
+   height:100%;
+   padding-left:180px;
+   transition:all 1s;
+ }
+
+ .it-index.hidemenue{
+  padding-left:0px;
+}
+ 
+.indx {
+  padding-left:0;
+  padding-right:0;
+}
+ /* 左侧区域 */
+ .it-index .lt-aside {
+   width:180px;
+   height:100%;
+   background:#222D32;
+   position:fixed;
+   left:0;
+   top:0;
+   z-index:666;
+   transition:all 1s;
+ }
+ .lt-aside.hidemenue{
+   left:-180px;
+ }
+ .lt-aside .title p{
+   height:50px;
+   line-height:50px;
+   color:#fff;
+   text-align:center;
+   font-size:25px;
+   background:#367FA9;
+ }
+ .lt-aside .HeadAccording{
+   padding-top:30px;
+   text-align:center;
+ }
+ .lt-aside .HeadAccording img{
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  display:block;
+  margin:0 auto;
+ }
+
+ .lt-aside .HeadAccording p{
+  font-size:20px;
+  color:#fff;
+  padding-top:10px;
+ }
+
+/* 侧边栏导航区域 */
+.lt-aside .nav {
+  margin-top:30px;
+}
+ 
+.lt-aside .nav ul>li>a{
+  display:block;
+  padding:15px 0;
+  color:#fff;
+  border-left:3px solid transparent;
+  padding-left:40px;
+}
+.lt-aside .nav ul>li a.current{
+  border-left:3px solid #006699;
+  background:#1D1F21;
+  
+}
+.nav .category a{
+  display:block;
+  color:#fff;
+  font-size:14px;
+  padding:10px 0;
+  padding-left:60px;
+}
+.nav .category {
+  display:none;
+}
+
+ 
+ /* 右侧区域 */
+ .it-index .lt-right {
+     height:1500px;
+     background:pink;
+     padding-top:70px;
+ }
+
+ .lt-right .it-head {
+   background:#367FA9;
+   height:50px;
+   width:100%;
+   position:fixed;
+   left:0;
+   top:0;
+   padding-left:180px;
+   transition:all 1s;
+ }
+ .it-head.hidemenue{
+  padding-left:0px;
+   
+ }
+.lt-right .it-head span{
+  color:#fff;
+  height:50px;
+  width:50px;
+  font-size:20px;
+  line-height:50px;
+  text-align:center;
+  
+ 
+}
+
+.lt-right .path-nav .breadcrumb li a{
+  color:#fff;
+}
+ 
