@@ -21,10 +21,8 @@ $(function(){
     })
   }
 
-  console.log(333333333)
 // ajaxStart 在第一个 ajax 发送时, 调用
 $(document).ajaxStart(function() {
-  console.log(111111111)
   // 开启进度条
   NProgress.start();
 });
@@ -37,7 +35,6 @@ $(document).ajaxStop(function() {
     // 关闭进度条
     NProgress.done();
   }, 10000);
-  console.log(222222222222222)
   
 
 });
