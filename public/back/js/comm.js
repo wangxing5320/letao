@@ -40,27 +40,8 @@ $(document).ajaxStop(function() {
 
     })
   }
-
-<<<<<<< HEAD
-=======
-// ajaxStart 在第一个 ajax 发送时, 调用
-$(document).ajaxStart(function() {
-  // 开启进度条
-  NProgress.start();
-});
->>>>>>> user
-
-
-<<<<<<< HEAD
  
-=======
-  // 模拟网络延迟
-  setTimeout(function() {
-    // 关闭进度条
-    NProgress.done();
-  }, 10000);
-  
->>>>>>> user
+   
 
 
  
@@ -94,7 +75,7 @@ $(document).ajaxStart(function() {
 
 
  //点击页面的退出按钮，将页面退回到登入页
- $(".modal-footer button:last-child").on("click",function(){
+ $(".waringm .modal-footer button:last-child").on("click",function(){
   $.ajax({
     type:"get",
     url:"/employee/employeeLogout",
