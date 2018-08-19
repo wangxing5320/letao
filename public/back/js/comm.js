@@ -41,9 +41,26 @@ $(document).ajaxStop(function() {
     })
   }
 
+<<<<<<< HEAD
+=======
+// ajaxStart 在第一个 ajax 发送时, 调用
+$(document).ajaxStart(function() {
+  // 开启进度条
+  NProgress.start();
+});
+>>>>>>> user
 
 
+<<<<<<< HEAD
  
+=======
+  // 模拟网络延迟
+  setTimeout(function() {
+    // 关闭进度条
+    NProgress.done();
+  }, 10000);
+  
+>>>>>>> user
 
 
  

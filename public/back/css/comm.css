@@ -131,4 +131,10 @@
 .lt-right .path-nav .breadcrumb li a{
   color:#fff;
 }
+
+/* 表单样式设置 */
+.lt-content table tr th,.lt-content table tr td{
+  text-align:center;
+  vertical-align:middle;
+}
  
