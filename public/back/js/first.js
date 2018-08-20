@@ -24,7 +24,6 @@ $(function () {
           //点击分页按钮时显示对应按钮的内容
           onPageClicked: function (a, b, c, page) {
             currentPage = page;
-            console.log(page);
             rand();
           }
         })
